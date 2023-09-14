@@ -1,0 +1,40 @@
+#wrap {
+    text-align: center;
+    margin-top: 35px;
+}
+
+header,
+nav,
+section,
+footer {
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+header{
+    border: 2px rgba(11, 97, 119, 0.801) groove;
+}
+nav{
+    background-color: #5d9ccf;
+}
+nav a {
+    color: rgb(6, 6, 66);
+    font-size: 20px;
+    font-weight: bold;
+    border-right: #ffffff 1px solid;
+    text-decoration: none;
+    margin-right: 15px;
+    padding-right: 15px;
+}
+
+header a{
+    text-decoration: none;
+    color: #17a8a8;
+}
+section{
+    margin-top: 45px;
+}
+section iframe, img{
+    width: 780px;
+    height: 540px;
+}
